@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2">
+	<meta name="theme-color" content="#222325">
+	<title>Blog — Ecomz</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SimonAKing/font/font.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<style>
+		html, body { height: 100%; margin: 0; }
+		body {
+			background: linear-gradient(160deg, #26292e 0%, #1a1b1e 55%, #141518 100%);
+			color: #c3cad3;
+			font-size: 14.5px;
+			padding: 48px 20px;
+			box-sizing: border-box;
+			display: block;
+		}
+		.wrap { max-width: 680px; margin: 0 auto; }
+		.page-head { margin-bottom: 30px; }
+		.page-head h1 { color: #f2f5f8; font-size: 26px; margin: 0 0 6px; font-weight: 700; }
+		.page-head .tagline { color: #9aa5b1; font-size: 13px; letter-spacing: 1px; margin: 0; }
+
+		.post {
+			display: block;
+			padding: 20px 22px;
+			margin: 14px 0;
+			border-radius: 14px;
+			background: rgba(34, 35, 37, 0.82);
+			border: 1px solid rgba(255, 255, 255, 0.07);
+			box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+			text-decoration: none;
+			color: #c3cad3;
+			transition: background .2s, border-color .2s, transform .15s;
+		}
+		.post:hover {
+			background: rgba(74, 126, 168, 0.16);
+			border-color: rgba(74, 126, 168, 0.5);
+			transform: translateY(-2px);
+		}
+		.post .title { color: #f2f5f8; font-size: 17px; font-weight: 600; margin: 0 0 6px; }
+		.post .meta { color: #7d8894; font-size: 12.5px; margin: 0 0 8px; }
+		.post .excerpt { color: #aab3bd; font-size: 13.5px; line-height: 1.7; margin: 0; }
+
+		.back { display: inline-block; margin-top: 30px; color: #7d8894; text-decoration: none; font-size: 13px; }
+		.back:hover { color: #c3cad3; }
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="page-head">
+			<h1>📝 Blog</h1>
+			<p class="tagline">记录 · 折腾 · 分享</p>
+		</div>
+
+		<!--
+			发布新文章的步骤（详见桌面《设置指南.md》方案 B）：
+			1. 复制 hello-world.html 改成本文（如 my-post.html），写上内容
+			2. 在下面照葫芦画瓢加一行 <a class="post" ...> 卡片
+			3. 进入 homepage\dist 目录执行：git add -A && git commit -m "新文章" && git push
+		-->
+
+		<a class="post" href="hello-world.html">
+			<p class="title">Hello, World! — 我的第一篇博客</p>
+			<p class="meta">2026-08-12 · 随笔</p>
+			<p class="excerpt">新站开张，第一篇博文。写点什么好呢？就先聊聊为什么会有这个网站、以及接下来会写什么吧……</p>
+		</a>
+
+		<a class="back" href="../index.html">← Back to homepage</a>
+	</div>
+</body>
+</html>
