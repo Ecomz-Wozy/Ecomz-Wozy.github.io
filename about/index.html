@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2">
+	<meta name="theme-color" content="#222325">
+	<title>About — Ecomz</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SimonAKing/font/font.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		body {
+			background: linear-gradient(160deg, #26292e 0%, #1a1b1e 55%, #141518 100%);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 24px;
+		}
+		.card {
+			width: 100%;
+			max-width: 560px;
+			background: rgba(34, 35, 37, 0.82);
+			border: 1px solid rgba(255, 255, 255, 0.07);
+			border-radius: 16px;
+			box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+			padding: 40px 44px;
+			text-align: center;
+			backdrop-filter: blur(6px);
+		}
+		.card img {
+			width: 96px;
+			height: 96px;
+			border-radius: 50%;
+			object-fit: cover;
+			box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+		}
+		.card h1 {
+			color: #f2f5f8;
+			font-size: 26px;
+			margin: 18px 0 6px;
+			font-weight: 700;
+		}
+		.card .tagline {
+			color: #9aa5b1;
+			font-size: 14px;
+			letter-spacing: 1px;
+			margin: 0 0 22px;
+		}
+		.card p {
+			color: #c3cad3;
+			line-height: 1.8;
+			font-size: 14.5px;
+			text-align: left;
+			margin: 0 0 12px;
+		}
+		.card p.highlight {
+			border-left: 3px solid #4a7ea8;
+			padding-left: 14px;
+			color: #d7dee6;
+		}
+		.card .links {
+			margin-top: 26px;
+			display: flex;
+			justify-content: center;
+			gap: 14px;
+			flex-wrap: wrap;
+		}
+		.card .links a {
+			display: inline-block;
+			padding: 9px 20px;
+			border-radius: 999px;
+			font-size: 13.5px;
+			text-decoration: none;
+			color: #e8edf2;
+			border: 1px solid rgba(255, 255, 255, 0.14);
+			background: rgba(255, 255, 255, 0.04);
+			transition: background 0.25s, border-color 0.25s, transform 0.15s;
+		}
+		.card .links a:hover {
+			background: rgba(74, 126, 168, 0.28);
+			border-color: rgba(74, 126, 168, 0.6);
+			transform: translateY(-2px);
+		}
+		.card .back {
+			display: block;
+			margin-top: 20px;
+			color: #7d8894;
+			font-size: 12.5px;
+			text-decoration: none;
+		}
+		.card .back:hover {
+			color: #c3cad3;
+		}
+	</style>
+</head>
+<body>
+	<main class="card">
+		<img src="../assets/avatar.jpg" width="96" height="96" alt="avatar">
+		<h1>Ecomz</h1>
+		<p class="tagline">STUDENT · CODER · DREAMER</p>
+
+		<p>Hi there 👋 I'm Ecomz, a computer science student based in Nanjing.</p>
+
+		<p class="highlight">
+			I spend most of my time writing Python, digging into machine learning and
+			algorithms, and building things that interest me — from course projects to
+			random side quests that may or may not ship.
+		</p>
+
+		<p>
+			Off the keyboard, I'm a self-declared ACG enthusiast — anime, manga and
+			games take a healthy share of my free time. This homepage is my tiny corner
+			of the internet to share both sides of that life.
+		</p>
+
+		<div class="links">
+			<a href="https://github.com/Ecomz-Wozy" target="_blank" rel="noopener noreferrer">GitHub</a>
+			<a href="mailto:erzhuo866@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+			<a href="https://github.com/Ecomz-Wozy?tab=repositories" target="_blank" rel="noopener noreferrer">Projects</a>
+		</div>
+
+		<a class="back" href="../index.html">← Back to homepage</a>
+	</main>
+</body>
+</html>
